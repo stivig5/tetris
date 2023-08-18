@@ -127,7 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="figure.cpp" />
+    <ClCompile Include="GameBoard.cpp" />
+    <ClCompile Include="label.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SimpleRender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="figure.h" />
+    <ClInclude Include="GameBoard.h" />
+    <ClInclude Include="irender.h" />
+    <ClInclude Include="label.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="SimpleRender.h" />
+    <ClInclude Include="size.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
